@@ -7,6 +7,7 @@ import org.example.lab3.db.ds.DataStructures;
 
 import java.util.List;
 
+
 public class Main {
     public static void main(String[] args) {
         DataStructures dataStructures = new DataStructures();
