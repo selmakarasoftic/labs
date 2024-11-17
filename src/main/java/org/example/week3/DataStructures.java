@@ -29,7 +29,6 @@ public class DataStructures {
                 .filter(taskItem -> taskItem.getEnums().equals(desiredStatus))
                 .toList();
     }
-    // cre
     // TODO create a method to find tasks whose id parameter greater than or equal to 2
     public List<TaskItem> findIdGrater(int id) {
         return tasks
@@ -37,7 +36,7 @@ public class DataStructures {
                 .filter(taskItem -> taskItem.getTaskId() >= id)
                 .toList();
     }
-    // TODO create a method that will, by using the forEach stream method, print to the console the description of each task
+    //TODO create a method that will, by using the forEach stream method, print to the console the description of each task
     public void printTaskDescriptions() {
         tasks.stream()
                 .forEach(taskItem -> System.out.println(taskItem.getTaskDescription()));
