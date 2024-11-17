@@ -1,6 +1,7 @@
-package org.example.lab3.db.model;
+/*package lab3.model;
 
 
+import lab3.enums.TaskStatus;
 import org.example.lab3.db.enums.TaskStatus;
 
 public class TaskItem {
@@ -13,6 +14,9 @@ public class TaskItem {
         this.id = id;
         this.description = description;
         this.status = status;
+    }
+
+    public TaskItem(int id, String nightOut, TaskStatus taskStatus) {
     }
 
     public String getDescription() {
@@ -39,3 +43,4 @@ public class TaskItem {
         this.id = id;
     }
 }
+*/

@@ -1,7 +1,7 @@
-package org.example.lab3.db.ds;
-
-import org.example.lab3.db.enums.TaskStatus;
-import org.example.lab3.db.model.TaskItem;
+/*package lab3.ds;
+import lab3.*;
+import lab3.enums.*;
+import lab3.model.TaskItem;
 
 import java.util.Arrays;
 import java.util.List;
@@ -46,4 +46,4 @@ public class DataStructures {
                 .filter(taskItem -> taskItem.getId() >= id)
                 .toList();
     }
-}
+}*/

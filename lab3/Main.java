@@ -1,5 +1,5 @@
-package org.example.lab3.db;
-
+//package org.example.lab3.db;
+/*
 import org.example.lab3.db.enums.TaskStatus;
 import org.example.lab3.db.model.TaskItem;
 import org.example.lab3.db.db.DbConnect;
@@ -25,4 +25,4 @@ public class Main {
         filteredTasks.forEach(task -> System.out.println(task.getDescription()));
     }
 }
-
+*/

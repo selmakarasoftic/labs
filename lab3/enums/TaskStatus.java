@@ -1,4 +1,4 @@
-package org.example.lab3.db.enums;
+package lab3.enums;
 
 
 public enum TaskStatus {
