@@ -53,7 +53,7 @@ public class NightSky {
                 starsInLine--;
                 setNumberOfStars(numberOfStars + 1);
             } else {
-                System.out.print(" ");
+                 System.out.print(" ");
             }
         }
     }
