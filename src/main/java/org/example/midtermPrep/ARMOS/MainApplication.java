@@ -34,5 +34,6 @@ public class MainApplication {
         restaurant.displayMenu();
 
         System.out.println("\nTotal Sales: $" + restaurant.calculateTotalSales());
+
     }
 }

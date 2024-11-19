@@ -38,8 +38,6 @@ public abstract class Vehicle implements Rentable {
 
     @Override
     public double applyDiscount(double discountRate){
-        // the multiplication in brackets will count the discount based on the price
-        // e.g. rentalRate = 20, discountRate=0.2 (20%), discount amount will be 20*0.2=4
         return this.rentalRate - (this.rentalRate * discountRate);
     }
 
